@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtUrl"
+        android:text="http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19InfStateJson?serviceKey=CcbS5yl%2Bj3cJSaIdNtUkMyIOqjtqOd1SKmBzBBQxKEX0EReYEF7yBJFO1tGzWykrhSbrRNUj8iL1HjVIZu0LVQ%3D%3D&#38;pageNo=1&#38;numOfRows=10&#38;startCreateDt=20200310&#38;endCreateDt=20200315"/>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnResponse"/>
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUrl"/>
+        
+    </ScrollView>
+        
+        
+</LinearLayout>
